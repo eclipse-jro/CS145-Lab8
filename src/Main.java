@@ -1,6 +1,10 @@
-/**
- * Created by ortegaj2 on 3/8/19.
- */
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// AUTHOR   |   J. Rene Ortega Jr.
+// PROJECT  |   CS145 Lab7
+// DATE     |   March 8th, 2019
+// FILE     |   Main.java creates an instance of both StarPower && BinarySearch classes and executes their methods.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 public class Main {
     public static void main(String[] args){
         //StarPower recursion = new StarPower();
