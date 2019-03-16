@@ -25,7 +25,7 @@ public class BinarySearch {
             // logic to decide to search in the first or second half of the list next
             if (intsForSearch[middleIndex] > target) {
 
-                // if target is less than the value at teh lowIndex then return -1
+                // if target is less than the value at the lowIndex then return -1
                 if (intsForSearch[lowIndex] > target) {
                     return result;
                 }
