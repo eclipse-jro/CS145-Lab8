@@ -3,6 +3,7 @@
 // PROJECT  |   CS145 Lab8
 // DATE     |   March 14th, 2019
 // FILE     |   BinarySearch.java takes in an ordered integer array and recursively searches for the target.
+//          |   Returns -1 if target is not found.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 public class BinarySearch {
@@ -37,7 +38,7 @@ public class BinarySearch {
                 if (intsForSearch[highIndex] < target) {
                     return result;
                 }
-                
+
                 // search second half of the list
                 result = search(intsForSearch, highIndex, middleIndex + 1, target);
             }

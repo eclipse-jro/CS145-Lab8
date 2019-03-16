@@ -12,7 +12,7 @@ public class Main {
 
         BinarySearch intArray = new BinarySearch();
         int[] testArray = {1, 3, 4, 5, 7, 8, 10, 13, 14};
-        int result = intArray.search(testArray,8,0,100);
+        int result = intArray.search(testArray,8,0, 13);
         System.out.println(result);
     }
 }
